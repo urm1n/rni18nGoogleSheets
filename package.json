@@ -7,7 +7,8 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "sync:i18n": "node scripts/generateTranslations.js"
   },
   "dependencies": {
     "@react-native/new-app-screen": "0.82.1",
@@ -33,6 +34,8 @@
     "@types/react-test-renderer": "^19.1.0",
     "eslint": "^8.19.0",
     "jest": "^29.6.3",
+    "node-fetch": "^3.3.2",
+    "papaparse": "^5.5.3",
     "prettier": "2.8.8",
     "react-test-renderer": "19.1.1",
     "typescript": "^5.8.3"
